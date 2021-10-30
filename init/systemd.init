@@ -1,2 +1,5 @@
 [SystemD]
-Source=pkgs/free/systemd
+Source=pkgs/live_free/systemd
+
+[SystemD-live-init-reader]
+Source=pkgs/live/init-reader

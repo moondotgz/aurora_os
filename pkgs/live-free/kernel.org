@@ -1,0 +1,10 @@
+#+AURORA-ORG-TYPE.PKG
+#+TITLE: Linux Kernel
+#+AUTHOR: Linus Torvalds & maintainers
+#+BEGIN_SRC C
+#include pkg.h
+#+END_SRC
+* PKG SOURCE
+#+BEGIN_SRC AURORA_PKG
+Source: https://git.kernel.org/pub/scm/linux/kernel/
+#+END_SRC
