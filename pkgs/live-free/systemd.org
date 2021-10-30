@@ -1,3 +1,8 @@
 #+AURORA-ORG-TYPE.PKG
 #+TITLE: SystemD Init System
 #+AUTHOR: Lennart Poettering & contributors
+#+BEGIN_SRC C
+#include pkg
+#+END_SRC
+* PKG SOURCES
+#BEGIN_SRC
