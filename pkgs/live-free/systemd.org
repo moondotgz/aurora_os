@@ -2,7 +2,11 @@
 #+TITLE: SystemD Init System
 #+AUTHOR: Lennart Poettering & contributors
 #+BEGIN_SRC C
-#include pkg
+#include pkg.h
 #+END_SRC
-* PKG SOURCES
-#BEGIN_SRC
+* PKG
+#+BEGIN_SRC AURORA_PKG
+#use git_source_compile
+Source: https://github.com/systemd/systemd.git
+compile()
+#+END_SRC

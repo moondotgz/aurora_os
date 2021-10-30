@@ -4,7 +4,9 @@
 #+BEGIN_SRC C
 #include pkg.h
 #+END_SRC
-* PKG SOURCE
+* PKG
 #+BEGIN_SRC AURORA_PKG
+#use git_source_compile
 Source: https://git.kernel.org/pub/scm/linux/kernel/
+compile()
 #+END_SRC
