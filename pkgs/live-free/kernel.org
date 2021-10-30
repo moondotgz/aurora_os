@@ -1,6 +1,6 @@
 #+AURORA-ORG-TYPE.PKG
 #+TITLE: Linux Kernel
-#+AUTHOR: Linus Torvalds & maintainers
+#+AUTHOR: Linus Torvalds & contributors
 #+BEGIN_SRC C
 #include pkg.h
 #+END_SRC

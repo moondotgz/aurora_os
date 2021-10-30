@@ -1,0 +1,3 @@
+#+AURORA-ORG-TYPE.PKG
+#+TITLE: SystemD Init System
+#+AUTHOR: Lennart Poettering & contributors
