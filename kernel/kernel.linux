@@ -1,12 +1,2 @@
 [Linux-default kernel]
 Source=pkgs/live-free/kernel
-
-# OPTIONAL DURING BUILD
-# [Zen Kernel]
-# Source=pkgs/build-free/zen-kernel
-
-# [LTS KERNEL]
-# Source=pkgs/build-free/lts-kernel
-
-# [Security (Hardened) Kernel]
-# Source=pkgs/build-free/hardened-kernel

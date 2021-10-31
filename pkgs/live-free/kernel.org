@@ -2,11 +2,17 @@
 #+TITLE: Linux Kernel
 #+AUTHOR: Linus Torvalds & contributors
 #+BEGIN_SRC C
-#include pkg.h
+#include <pkg.h>
+use_title()
 #+END_SRC
-* PKG
+* PKG INSTALL STAGE
 #+BEGIN_SRC AURORA_PKG
 #use git_source_compile
 Source: https://git.kernel.org/pub/scm/linux/kernel/
 compile()
+#+END_SRC
+* PKG SETUP
+#+BEGIN_SRC AURORA_PKG
+#use setup/{package}.org
+setup_package()
 #+END_SRC
