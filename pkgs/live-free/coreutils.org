@@ -1,0 +1,18 @@
+#+AURORA-ORG-TYPE.PKG
+#+TITLE: GNU CoreUtils
+#+AUTHOR: Richard Stallman & the GNU Project team
+#+BEGIN_SRC C
+#include <pkg.h>
+use_title()
+#+END_SRC
+* PKG INSTALL STAGE
+#+BEGIN_SRC AURORA_PKG
+  #use git_source_compile
+  Source: git://git.sv.gnu.org/coreutils
+  compile()
+#+END_SRC
+* PKG SETUP
+#+BEGIN_SRC AURORA_PKG
+  #use setup/{package}.org
+  setup_package()
+#+END_SRC
